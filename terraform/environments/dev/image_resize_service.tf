@@ -1,6 +1,6 @@
 module "mdp-image_resize_service" {
     source = "../../modules/s3"
-    bucket_name = "mdp-image_resize_service"
+    bucket_name = "mdp-image-resize-service"
     environment = var.environment
 }
 
