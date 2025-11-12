@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+
+# GitHub Actions
+.github/workflows/*.tfplan
+
+# AWS
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
