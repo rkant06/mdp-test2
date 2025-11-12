@@ -9,7 +9,6 @@ import boto3
 import logging
 import PIL import Image
 
-
 s3_client = boto3.client('s3')
 
 logger = logging.getLogger()
